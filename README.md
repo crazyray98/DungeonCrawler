@@ -9,6 +9,10 @@ Each time you enter a room, there will be a monster (except for the starting roo
 
 Alternatively, the player can choose to not fight and simply leave the room via a door. Not fighting means you do not earn the loot in that room. But you can always come back later to fight the monster and earn the loot in that room (loot and monster stats stay constant in each iteration of the game, and only changes after the game is closed and restarted).
 
+Losing a fight loses 1 health. 3 health total upon game start. 0 health = death = game over.
+
 Doors are present in all rooms, and each room has a door that leads to each adjacent room (diagonally adjacent does not count).
+
+Currently attack and defense are not really implemented and are simply added together into a holistic "power score". Future iterations might see a proper combat system where attack and defense balance is more important, and monsters will be updated to fit the same system.
 
 Literally no one is gonna read this so I am not gonna bother writing more lmao.
